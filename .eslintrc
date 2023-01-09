@@ -1,3 +1,9 @@
 {
-     "extends" : "standard"
+     "extends" : "standard",
+     "rules": {
+           "no-console": "off",
+           "no-unused-vars": "off",
+           "no-undef": "off",
+           "no-prototype-builtins": "off"
+     }
 }
